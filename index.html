@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul Rajeevan – Software Developer &amp; Vibe Coding Specialist</title>
+  <meta name="description" content="Official static portfolio of Paul Rajeevan Nimalarajah. Software Developer specializing in Vibe Coding, web apps, mobile solutions, systems, and developer tools." />
+  <meta name="keywords" content="Paul Rajeevan, Software Developer, Vibe Coding, Antigravity IDE, Next.js, Flutter, Kotlin, Python Automation, Browser Extensions, Sri Lanka Developer" />
+  <meta name="author" content="Paul Rajeevan Nimalarajah" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://paulrajeevan.com" />
+  <meta property="og:title" content="Paul Rajeevan – Software Developer &amp; Vibe Coding Specialist" />
+  <meta property="og:description" content="Building high-performance webapps, mobile apps, and developer tools using Antigravity IDE." />
+  <meta property="og:image" content="assets/images/PaulRajeevan.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://paulrajeevan.com" />
+  <meta property="twitter:title" content="Paul Rajeevan – Software Developer &amp; Vibe Coding Specialist" />
+  <meta property="twitter:description" content="Building small tools to solve real problems using code." />
+  <meta property="twitter:image" content="assets/images/PaulRajeevan.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/images/favicon.png" />
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paul Rajeevan Nimalarajah",
+    "alternateName": "Paul Rajeevan",
+    "url": "https://paulrajeevan.com",
+    "image": "https://paulrajeevan.com/assets/images/PaulRajeevan.png",
+    "jobTitle": "Software Developer",
+    "description": "Software Developer from Sri Lanka specializing in Vibe Coding, practical tools, web applications, and mobile systems.",
+    "sameAs": [
+      "https://github.com/Paul-Rajeevan-Nimalarajah",
+      "https://www.linkedin.com/in/paul-rajeevan/",
+      "https://www.youtube.com/@paulrajeevan"
+    ],
+    "knowsAbout": ["Vibe Coding", "Next.js", "Flutter", "Android Kotlin", "Python Automation", "Browser Extensions", "Antigravity IDE"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-3" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <a href="#home" class="brand-logo" aria-label="Paul Rajeevan Home">
+        <div class="brand-icon-wrap">
+          <img src="assets/images/favicon.png" alt="Paul Rajeevan Logo" class="brand-avatar-img" width="34" height="34" />
+        </div>
+        <span class="brand-text">Paul<span class="text-accent">Rajeevan</span></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#stack" class="nav-link">Power Stack</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action buttons & Theme Switcher -->
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-icon theme-toggle" aria-label="Toggle light and dark mode" title="Toggle theme">
+          <i class="fa-solid fa-moon dark-icon"></i>
+          <i class="fa-solid fa-sun light-icon"></i>
+        </button>
+
+        <a href="https://github.com/Paul-Rajeevan-Nimalarajah" target="_blank" rel="noopener noreferrer" class="btn-icon github-btn" aria-label="GitHub Profile" title="View GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="#contact" class="btn btn-primary btn-sm header-cta">
+          <span>Let's Talk</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="mobile-menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Navigation -->
+  <div id="mobile-nav-drawer" class="mobile-drawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      <div class="drawer-header">
+        <div class="brand-logo">
+          <div class="brand-icon-wrap">
+            <img src="assets/images/favicon.png" alt="Paul Rajeevan Logo" width="30" height="30" />
+          </div>
+          <span class="brand-text">Paul<span class="text-accent">Rajeevan</span></span>
+        </div>
+        <button id="drawer-close-btn" class="btn-icon" aria-label="Close menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <nav class="drawer-nav">
+        <a href="#home" class="drawer-link"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#about" class="drawer-link"><i class="fa-solid fa-user-astronaut"></i> About &amp; Pillars</a>
+        <a href="#stack" class="drawer-link"><i class="fa-solid fa-layer-group"></i> The Power Stack</a>
+        <a href="#projects" class="drawer-link"><i class="fa-solid fa-laptop-code"></i> Projects</a>
+        <a href="#contact" class="drawer-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="drawer-footer">
+        <div class="drawer-socials">
+          <a href="https://github.com/Paul-Rajeevan-Nimalarajah" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://linkedin.com/in/paul-rajeevan" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://youtube.com/@paulrajeevan" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="mailto:contact@paulrajeevan.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-block drawer-cta">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Availability Pill -->
+          <div class="badge-pill hero-badge">
+            <span class="pulse-dot">
+              <span class="ping"></span>
+              <span class="dot"></span>
+            </span>
+            <span>Vibe Coding Specialist &amp; Builder</span>
+          </div>
+
+          <p class="hero-greeting">Hi There, I'm</p>
+          <h1 class="hero-title">
+            <span class="text-gradient">Paul Rajeevan</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            I Am Into <span class="highlight-text">Vibe Coding</span> &amp; Modern Engineering
+          </h2>
+
+          <p class="hero-description">
+            Building high-performance webapps, mobile apps, and browser extensions using 
+            <strong class="highlight-accent">Antigravity IDE</strong>. Turning ambitious concepts into 
+            fast, elegant, and practical software solutions.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="btn btn-glass btn-lg">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials-wrapper">
+            <span class="socials-label">Connect:</span>
+            <div class="social-icon-row">
+              <a href="mailto:contact@paulrajeevan.com" class="social-circle" aria-label="Email Paul Rajeevan" title="contact@paulrajeevan.com">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://linkedin.com/in/paul-rajeevan" target="_blank" rel="noopener noreferrer" class="social-circle linkedin" aria-label="LinkedIn" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/Paul-Rajeevan-Nimalarajah" target="_blank" rel="noopener noreferrer" class="social-circle github" aria-label="GitHub" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://youtube.com/@paulrajeevan" target="_blank" rel="noopener noreferrer" class="social-circle youtube" aria-label="YouTube Channel" title="YouTube Channel">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Visual -->
+        <div class="hero-visual">
+          <div class="avatar-card-wrapper">
+            <div class="avatar-halo"></div>
+            <div class="avatar-ring-frame">
+              <div class="avatar-inner-wrap">
+                <img src="assets/images/PaulRajeevan.png" alt="Paul Rajeevan Nimalarajah" class="hero-avatar-img" width="460" height="460" loading="eager" />
+              </div>
+              <div class="status-indicator" title="Online &amp; Building">
+                <div class="indicator-ping"></div>
+                <div class="indicator-core"></div>
+              </div>
+            </div>
+
+            <!-- Floating mini badge -->
+            <div class="floating-badge badge-top-left" aria-hidden="true">
+              <div class="badge-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div class="badge-text">
+                <span class="badge-title">Vibe Coding</span>
+                <span class="badge-sub">Flow State Dev</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom-right" aria-hidden="true">
+              <div class="badge-icon"><i class="fa-solid fa-bolt"></i></div>
+              <div class="badge-text">
+                <span class="badge-title">Antigravity IDE</span>
+                <span class="badge-sub">Next-Gen Speed</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Bar -->
+      <div class="container hero-metrics-container">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <span class="metric-num">15+</span>
+            <span class="metric-label">Projects &amp; Repositories</span>
+          </div>
+          <div class="metric-divider" aria-hidden="true"></div>
+          <div class="metric-card">
+            <span class="metric-num">13+</span>
+            <span class="metric-label">Technologies Mastered</span>
+          </div>
+          <div class="metric-divider" aria-hidden="true"></div>
+          <div class="metric-card">
+            <span class="metric-num">100%</span>
+            <span class="metric-label">Static Zero-Latency</span>
+          </div>
+          <div class="metric-divider" aria-hidden="true"></div>
+          <div class="metric-card">
+            <span class="metric-num">Active</span>
+            <span class="metric-label">Open Source Developer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT & PILLARS SECTION ==================== -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">The Identity &amp; Philosophy</span>
+          <h2 class="section-title">About Paul Rajeevan</h2>
+          <div class="section-decor"></div>
+          <p class="section-lead">
+            I specialize in <strong class="text-accent">Vibe Coding</strong> — a modern methodology focused on rapid iteration, creative flow, and building high-performance digital ecosystems. Using <strong class="text-accent">Antigravity IDE</strong>, I transform complex ideas into intuitive, responsive, and delightful user experiences.
+          </p>
+        </div>
+
+        <!-- 3 Core Pillars -->
+        <div class="pillars-grid">
+          <div class="pillar-card card-teal">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon-wrap">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h3 class="pillar-title">Web Apps</h3>
+            <p class="pillar-text">
+              Developing high-performance, scalable web applications with Next.js, modern vanilla architectures, and Vibe Coding efficiency.
+            </p>
+            <a href="#projects" class="pillar-link" data-filter="web">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="pillar-card card-dark">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon-wrap">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <h3 class="pillar-title">Mobile Apps</h3>
+            <p class="pillar-text">
+              Crafting premium mobile experiences that feel native, fluid, and optimized for modern Android &amp; iOS devices using Flutter and Kotlin.
+            </p>
+            <a href="#projects" class="pillar-link" data-filter="mobile">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="pillar-card card-gold">
+            <div class="pillar-glow"></div>
+            <div class="pillar-icon-wrap">
+              <i class="fa-solid fa-puzzle-piece"></i>
+            </div>
+            <h3 class="pillar-title">Extensions &amp; Tools</h3>
+            <p class="pillar-text">
+              Building powerful browser extensions, Python automation utilities, and IDE workflows to supercharge productivity and daily tasks.
+            </p>
+            <a href="#projects" class="pillar-link" data-filter="tools">
+              <span>Explore Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Methodology Highlight Card -->
+        <div class="methodology-card">
+          <div class="methodology-body">
+            <span class="badge-pill sm">Creative Momentum</span>
+            <h3 class="methodology-title">The Vibe Coding Methodology</h3>
+            <p class="methodology-text">
+              Vibe Coding isn't just about typing code; it's about maintaining creative velocity that allows for continuous experimentation, instant feedback, and premium craftsmanship. By coupling intelligent tools with deep domain curiosity, every interaction feels intentional, snappy, and cohesive.
+            </p>
+            <div class="methodology-pills">
+              <div class="feature-tag"><i class="fa-solid fa-bolt"></i> Rapid Iteration</div>
+              <div class="feature-tag"><i class="fa-solid fa-feather-pointed"></i> Creative Flow</div>
+              <div class="feature-tag"><i class="fa-solid fa-shield-halved"></i> Pragmatic Architecture</div>
+              <div class="feature-tag"><i class="fa-solid fa-sparkles"></i> Antigravity Workflows</div>
+            </div>
+          </div>
+          <div class="methodology-graphic">
+            <div class="chip-frame">
+              <i class="fa-solid fa-microchip chip-icon"></i>
+              <div class="circuit-ring"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mission vs Technical Focus Two-Column Grid -->
+        <div class="dual-grid">
+          <div class="glass-card">
+            <div class="card-header-row">
+              <div class="icon-bubble red"><i class="fa-solid fa-bullseye"></i></div>
+              <h3 class="subcard-title">The Mission</h3>
+            </div>
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check"></i> Deliver fast, high-performance digital products</li>
+              <li><i class="fa-solid fa-circle-check"></i> Maintain a vibe-first, friction-free dev momentum</li>
+              <li><i class="fa-solid fa-circle-check"></i> Create open educational resources for students &amp; developers</li>
+              <li><i class="fa-solid fa-circle-check"></i> Push the boundaries of web, mobile, and lightweight AI</li>
+            </ul>
+          </div>
+
+          <div class="glass-card">
+            <div class="card-header-row">
+              <div class="icon-bubble primary"><i class="fa-solid fa-terminal"></i></div>
+              <h3 class="subcard-title">Technical Focus</h3>
+            </div>
+            <ul class="arrow-list">
+              <li><i class="fa-solid fa-arrow-right"></i> Modern Web &amp; Next.js Ecosystems</li>
+              <li><i class="fa-solid fa-arrow-right"></i> Native &amp; Cross-Platform Mobile (Flutter, Kotlin)</li>
+              <li><i class="fa-solid fa-arrow-right"></i> Computer Vision &amp; Local AI (Ollama, MediaPipe)</li>
+              <li><i class="fa-solid fa-arrow-right"></i> Systems, Root Utilities (IPTables) &amp; Automation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== THE POWER STACK SECTION ==================== -->
+    <section id="stack" class="section stack-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">The Infrastructure</span>
+          <h2 class="section-title">The Power Stack</h2>
+          <div class="section-decor"></div>
+          <p class="section-lead">
+            Curated, production-tested technologies powering resilient web applications, mobile software, and intelligent workflows.
+          </p>
+        </div>
+
+        <!-- Stack Category Filters -->
+        <div class="category-tabs" id="stack-tabs" role="tablist" aria-label="Technology Stack Filters">
+          <button class="tab-btn active" data-stack-filter="all" role="tab" aria-selected="true">All Stack (16)</button>
+          <button class="tab-btn" data-stack-filter="languages" role="tab" aria-selected="false">Languages</button>
+          <button class="tab-btn" data-stack-filter="frameworks" role="tab" aria-selected="false">Frameworks</button>
+          <button class="tab-btn" data-stack-filter="cloud" role="tab" aria-selected="false">Cloud &amp; BaaS</button>
+          <button class="tab-btn" data-stack-filter="ai" role="tab" aria-selected="false">AI &amp; Models</button>
+          <button class="tab-btn" data-stack-filter="tools" role="tab" aria-selected="false">Dev &amp; Media Tools</button>
+        </div>
+
+        <!-- Stack Grid -->
+        <div class="stack-grid" id="stack-items-grid">
+          <!-- Item: JavaScript / TypeScript -->
+          <div class="tech-card" data-category="languages">
+            <div class="tech-icon"><i class="fa-brands fa-js"></i></div>
+            <h4 class="tech-name">JavaScript &amp; TS</h4>
+            <span class="tech-tag">Frontend &amp; Backend</span>
+          </div>
+
+          <!-- Item: Python -->
+          <div class="tech-card" data-category="languages">
+            <div class="tech-icon"><i class="fa-brands fa-python"></i></div>
+            <h4 class="tech-name">Python</h4>
+            <span class="tech-tag">Automation &amp; AI</span>
+          </div>
+
+          <!-- Item: Kotlin -->
+          <div class="tech-card" data-category="languages">
+            <div class="tech-icon"><i class="fa-brands fa-android"></i></div>
+            <h4 class="tech-name">Kotlin</h4>
+            <span class="tech-tag">Android Systems</span>
+          </div>
+
+          <!-- Item: HTML5 & CSS3 -->
+          <div class="tech-card" data-category="languages">
+            <div class="tech-icon"><i class="fa-brands fa-html5"></i></div>
+            <h4 class="tech-name">HTML5 &amp; CSS3</h4>
+            <span class="tech-tag">Semantic Web &amp; UX</span>
+          </div>
+
+          <!-- Item: Next.js & React -->
+          <div class="tech-card" data-category="frameworks">
+            <div class="tech-icon"><i class="fa-brands fa-react"></i></div>
+            <h4 class="tech-name">Next.js &amp; React</h4>
+            <span class="tech-tag">Full-Stack SSR / SSG</span>
+          </div>
+
+          <!-- Item: Flutter -->
+          <div class="tech-card" data-category="frameworks">
+            <div class="tech-icon"><i class="fa-solid fa-mobile"></i></div>
+            <h4 class="tech-name">Flutter</h4>
+            <span class="tech-tag">Cross-Platform UI</span>
+          </div>
+
+          <!-- Item: Node.js & Express -->
+          <div class="tech-card" data-category="frameworks">
+            <div class="tech-icon"><i class="fa-brands fa-node-js"></i></div>
+            <h4 class="tech-name">Node.js</h4>
+            <span class="tech-tag">Runtime &amp; APIs</span>
+          </div>
+
+          <!-- Item: Firebase -->
+          <div class="tech-card" data-category="cloud">
+            <div class="tech-icon"><i class="fa-solid fa-fire"></i></div>
+            <h4 class="tech-name">Firebase</h4>
+            <span class="tech-tag">Realtime &amp; Auth</span>
+          </div>
+
+          <!-- Item: Supabase -->
+          <div class="tech-card" data-category="cloud">
+            <div class="tech-icon"><i class="fa-solid fa-database"></i></div>
+            <h4 class="tech-name">Supabase</h4>
+            <span class="tech-tag">Postgres BaaS</span>
+          </div>
+
+          <!-- Item: Cloudflare -->
+          <div class="tech-card" data-category="cloud">
+            <div class="tech-icon"><i class="fa-solid fa-cloud"></i></div>
+            <h4 class="tech-name">Cloudflare</h4>
+            <span class="tech-tag">Edge, DNS &amp; Security</span>
+          </div>
+
+          <!-- Item: Vercel -->
+          <div class="tech-card" data-category="cloud">
+            <div class="tech-icon"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            <h4 class="tech-name">Vercel</h4>
+            <span class="tech-tag">Static &amp; Serverless CI</span>
+          </div>
+
+          <!-- Item: Gemini & GPT-4o -->
+          <div class="tech-card" data-category="ai">
+            <div class="tech-icon"><i class="fa-solid fa-brain"></i></div>
+            <h4 class="tech-name">Gemini &amp; GPT-4o</h4>
+            <span class="tech-tag">Agentic LLMs</span>
+          </div>
+
+          <!-- Item: Ollama (Local AI) -->
+          <div class="tech-card" data-category="ai">
+            <div class="tech-icon"><i class="fa-solid fa-robot"></i></div>
+            <h4 class="tech-name">Ollama</h4>
+            <span class="tech-tag">Local Privacy AI</span>
+          </div>
+
+          <!-- Item: Antigravity IDE -->
+          <div class="tech-card" data-category="ai">
+            <div class="tech-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <h4 class="tech-name">Antigravity IDE</h4>
+            <span class="tech-tag">Vibe Coding Hub</span>
+          </div>
+
+          <!-- Item: Figma -->
+          <div class="tech-card" data-category="tools">
+            <div class="tech-icon"><i class="fa-brands fa-figma"></i></div>
+            <h4 class="tech-name">Figma</h4>
+            <span class="tech-tag">UI/UX Prototyping</span>
+          </div>
+
+          <!-- Item: DaVinci Resolve -->
+          <div class="tech-card" data-category="tools">
+            <div class="tech-icon"><i class="fa-solid fa-film"></i></div>
+            <h4 class="tech-name">Resolve</h4>
+            <span class="tech-tag">Visual Production</span>
+          </div>
+        </div>
+
+        <!-- Custom Stacks CTA Banner -->
+        <div class="stack-inquiry-box">
+          <div class="inquiry-icon"><i class="fa-solid fa-code-merge"></i></div>
+          <div class="inquiry-info">
+            <h4 class="inquiry-title">Need a tailor-made tech stack for your idea?</h4>
+            <p class="inquiry-desc">I architect clean solutions matching your technical constraints, budget, and deployment targets.</p>
+          </div>
+          <a href="#contact" class="btn btn-outline btn-sm">Inquire Custom Stack</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURED PROJECTS SECTION ==================== -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Craft &amp; Code</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-decor"></div>
+          <p class="section-lead">
+            Real-world systems, educational hubs, rooted Android utilities, and AI experiments built with focus on speed and usability.
+          </p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="category-tabs" id="project-filters" role="tablist" aria-label="Project Category Filters">
+          <button class="tab-btn active" data-filter="all" role="tab" aria-selected="true">All Projects (7)</button>
+          <button class="tab-btn" data-filter="web" role="tab" aria-selected="false">Web &amp; Educational</button>
+          <button class="tab-btn" data-filter="mobile" role="tab" aria-selected="false">Mobile &amp; Android</button>
+          <button class="tab-btn" data-filter="ai" role="tab" aria-selected="false">AI &amp; Vision</button>
+          <button class="tab-btn" data-filter="tools" role="tab" aria-selected="false">Systems &amp; Tools</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Project 1: AL-ICT Notes Hub -->
+          <article class="project-card" data-category="web">
+            <div class="project-card-banner banner-emerald">
+              <span class="project-category-badge">Education &amp; Web</span>
+              <div class="project-banner-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status live"><i class="fa-solid fa-circle"></i> Active Hub</span>
+                <span class="project-stars"><i class="fa-solid fa-star"></i> Featured</span>
+              </div>
+              <h3 class="project-title">AL-ICT Notes Hub</h3>
+              <p class="project-description">
+                Centralized educational resource for Sri Lankan A/L students. Provides high-quality Tamil Medium ICT notes, past papers archive (2011–2024), and a verified tuition directory.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5 / CSS3</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">A/L ICT</span>
+                <span class="tag">Open Resource</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="al-ict">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah/AL-ICT" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: AI Gesture Snake -->
+          <article class="project-card" data-category="ai">
+            <div class="project-card-banner banner-gold">
+              <span class="project-category-badge">AI &amp; Computer Vision</span>
+              <div class="project-banner-icon"><i class="fa-solid fa-hand"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status ai"><i class="fa-solid fa-wand-magic-sparkles"></i> MediaPipe</span>
+                <span class="project-stars"><i class="fa-solid fa-gamepad"></i> Browser Game</span>
+              </div>
+              <h3 class="project-title">AI Gesture Snake</h3>
+              <p class="project-description">
+                Classic Snake game steered purely with hand gestures in the browser. Powered by real-time AI hand landmark detection via MediaPipe with zero backend dependencies.
+              </p>
+              <div class="project-tags">
+                <span class="tag">MediaPipe</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">Vanilla JS</span>
+                <span class="tag">Canvas</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="gesture-snake">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah/ai-gesture-snake" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: NetBlocker -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-card-banner banner-dark">
+              <span class="project-category-badge">Android Utility</span>
+              <div class="project-banner-icon"><i class="fa-solid fa-shield-virus"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status root"><i class="fa-solid fa-lock"></i> Root / IPTables</span>
+                <span class="project-stars"><i class="fa-brands fa-android"></i> Kotlin</span>
+              </div>
+              <h3 class="project-title">NetBlocker Android</h3>
+              <p class="project-description">
+                Android utility for rooted devices allowing users to toggle internet access (Wi-Fi / Mobile Data) on a strict per-app basis via low-level Linux IPTables rules.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">IPTables</span>
+                <span class="tag">Android Root</span>
+                <span class="tag">Firewall</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="netblocker">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah/NetBlocker" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: HotspotController -->
+          <article class="project-card" data-category="mobile">
+            <div class="project-card-banner banner-teal">
+              <span class="project-category-badge">Network &amp; Security</span>
+              <div class="project-banner-icon"><i class="fa-solid fa-wifi"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status mobile"><i class="fa-solid fa-signal"></i> Hotspot Control</span>
+                <span class="project-stars"><i class="fa-brands fa-android"></i> Kotlin</span>
+              </div>
+              <h3 class="project-title">HotspotController</h3>
+              <p class="project-description">
+                Android hotspot controller applying dynamic iptables filtering to manage, whitelist, or ban specific connected client devices from routing data through the phone.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Kotlin</span>
+                <span class="tag">Android SDK</span>
+                <span class="tag">IPTables</span>
+                <span class="tag">Networking</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="hotspot-controller">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah/HotspotController" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: HybridOS -->
+          <article class="project-card" data-category="tools">
+            <div class="project-card-banner banner-purple">
+              <span class="project-category-badge">Systems &amp; Low-Level</span>
+              <div class="project-banner-icon"><i class="fa-solid fa-microchip"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status systems"><i class="fa-solid fa-gear"></i> Assembly / C</span>
+                <span class="project-stars"><i class="fa-solid fa-cube"></i> Kernel Project</span>
+              </div>
+              <h3 class="project-title">HybridOS Kernel</h3>
+              <p class="project-description">
+                A hands-on OS development exploration designed to understand low-level architecture, bootloaders, and kernel mechanisms to execute Linux and Windows workflows side-by-side.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Assembly</span>
+                <span class="tag">C Kernel</span>
+                <span class="tag">OS Dev</span>
+                <span class="tag">Low-Level</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="hybridos">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah/HybridOS" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Local AI Telegram Bridge -->
+          <article class="project-card" data-category="ai">
+            <div class="project-card-banner banner-blue">
+              <span class="project-category-badge">AI Assistant &amp; Bot</span>
+              <div class="project-banner-icon"><i class="fa-brands fa-telegram"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status ai"><i class="fa-solid fa-brain"></i> Ollama LLM</span>
+                <span class="project-stars"><i class="fa-solid fa-lock"></i> 100% Private</span>
+              </div>
+              <h3 class="project-title">Local AI on Telegram</h3>
+              <p class="project-description">
+                Bridge connecting locally hosted Ollama language models to Telegram bots. Enables free, totally private AI conversation without cloud API costs or data leakage.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Telegram API</span>
+                <span class="tag">Ollama</span>
+                <span class="tag">Local AI</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="local-ai-telegram">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 7: RPS Computer Vision Game -->
+          <article class="project-card" data-category="ai">
+            <div class="project-card-banner banner-gold">
+              <span class="project-category-badge">Machine Learning Game</span>
+              <div class="project-banner-icon"><i class="fa-solid fa-hand-scissors"></i></div>
+            </div>
+            <div class="project-card-body">
+              <div class="project-meta-row">
+                <span class="project-status web"><i class="fa-solid fa-camera"></i> Teachable Machine</span>
+                <span class="project-stars"><i class="fa-solid fa-bolt"></i> Interactive</span>
+              </div>
+              <h3 class="project-title">Rock Paper Scissors AI</h3>
+              <p class="project-description">
+                Browser-based interactive Rock Paper Scissors web application that predicts human moves via webcam gesture classification powered by Google Teachable Machine.
+              </p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Teachable Machine</span>
+                <span class="tag">TensorFlow.js</span>
+                <span class="tag">Webcam AI</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn btn-sm btn-glass view-project-details" data-project-id="rps-game">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah/rps-game" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary">
+                  <i class="fa-brands fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CALL TO ACTION BANNER ==================== -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-banner-card">
+          <div class="cta-ambient-glow" aria-hidden="true"></div>
+          <div class="cta-content">
+            <span class="badge-pill cta-badge">Available for Engagements</span>
+            <h2 class="cta-heading">Ready to build the future of the web?</h2>
+            <p class="cta-paragraph">
+              Currently accepting new client projects, open-source collaborations, and developer tooling consulting. Let's create something high-performance and intentional.
+            </p>
+            <div class="cta-buttons">
+              <a href="#contact" class="btn btn-accent btn-lg">
+                <span>Start a Conversation</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              <a href="mailto:contact@paulrajeevan.com" class="btn btn-glass btn-lg">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Direct Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Direct Line</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-decor"></div>
+          <p class="section-lead">
+            Have questions, feedback, or want to collaborate on a project? Send a message and let's bring your vision to life.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Card 1: Direct Email -->
+          <div class="contact-card card-featured">
+            <div class="card-icon-bubble primary">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="card-content-block">
+              <span class="card-kicker">Fastest Way to Reach Me</span>
+              <h3 class="card-heading">Direct Email</h3>
+              <a href="mailto:contact@paulrajeevan.com" class="card-primary-link" id="email-address-text">contact@paulrajeevan.com</a>
+              <p class="card-subtext">Open to project inquiries, engineering discussions, and consultations. Replies typically within 24 hours.</p>
+              <div class="contact-btn-group">
+                <a href="mailto:contact@paulrajeevan.com" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-paper-plane"></i>
+                  <span>Send Email</span>
+                </a>
+                <button id="copy-email-btn" class="btn btn-glass btn-sm copy-btn" title="Copy email address to clipboard">
+                  <i class="fa-regular fa-copy"></i>
+                  <span>Copy Address</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Professional Networks -->
+          <div class="contact-card">
+            <div class="card-icon-bubble blue">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="card-content-block">
+              <span class="card-kicker">Professional Network</span>
+              <h3 class="card-heading">LinkedIn &amp; GitHub</h3>
+              <p class="card-subtext">Explore my open-source codebases or connect with me for career and consulting opportunities.</p>
+              <div class="contact-social-grid">
+                <a href="https://linkedin.com/in/paul-rajeevan" target="_blank" rel="noopener noreferrer" class="social-tag linkedin-tag">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span>LinkedIn Profile</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                </a>
+                <a href="https://github.com/Paul-Rajeevan-Nimalarajah" target="_blank" rel="noopener noreferrer" class="social-tag github-tag">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub Repos</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                </a>
+                <a href="https://youtube.com/@paulrajeevan" target="_blank" rel="noopener noreferrer" class="social-tag youtube-tag">
+                  <i class="fa-brands fa-youtube"></i>
+                  <span>YouTube Channel</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Location & Collaboration Status -->
+          <div class="contact-card">
+            <div class="card-icon-bubble green">
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+            <div class="card-content-block">
+              <span class="card-kicker">Working Range</span>
+              <h3 class="card-heading">Location &amp; Remote</h3>
+              <p class="card-location-title">Sri Lanka</p>
+              <p class="card-subtext">Collaborating with teams, founders, and creators remotely worldwide across all time zones.</p>
+              <div class="availability-status-pill">
+                <span class="pulse-dot">
+                  <span class="ping"></span>
+                  <span class="dot"></span>
+                </span>
+                <span>Currently Accepting New Projects</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand-col">
+          <a href="#home" class="brand-logo">
+            <div class="brand-icon-wrap">
+              <img src="assets/images/favicon.png" alt="Paul Rajeevan Logo" width="32" height="32" />
+            </div>
+            <span class="brand-text">Paul<span class="text-accent">Rajeevan</span></span>
+          </a>
+          <p class="footer-bio">
+            &ldquo;Specializing in Vibe Coding and high-performance digital ecosystems. Building tools and products for the next generation of creators.&rdquo;
+          </p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stack">Power Stack</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Connect -->
+        <div class="footer-connect-col">
+          <h4 class="footer-heading">Connect</h4>
+          <div class="footer-social-row">
+            <a href="https://github.com/Paul-Rajeevan-Nimalarajah" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="mailto:contact@paulrajeevan.com" class="social-circle" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://linkedin.com/in/paul-rajeevan" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://youtube.com/@paulrajeevan" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p class="copyright">&copy; 2026 Paul Rajeevan Nimalarajah. All rights reserved.</p>
+        <div class="footer-extra-links">
+          <button class="footer-text-btn" id="open-privacy-modal">Privacy Info</button>
+          <span class="dot-separator">•</span>
+          <button class="footer-text-btn" id="open-terms-modal">Terms</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING QUICK SCROLL BUTTON ==================== -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Scroll back to top" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ==================== TOAST NOTIFICATION CONTAINER ==================== -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- ==================== PROJECT DETAILS MODAL ==================== -->
+  <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-tag-pill" id="project-modal-category">Project Category</div>
+        <button class="modal-close-btn" data-close-modal aria-label="Close project modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3 id="project-modal-title" class="modal-heading">Project Title</h3>
+        <p id="project-modal-desc" class="modal-paragraph">Detailed project description goes here...</p>
+
+        <div class="modal-detail-section">
+          <h4 class="modal-subheading">Key Highlights &amp; Architecture</h4>
+          <ul id="project-modal-highlights" class="modal-bullet-list"></ul>
+        </div>
+
+        <div class="modal-detail-section">
+          <h4 class="modal-subheading">Tech Stack</h4>
+          <div id="project-modal-tags" class="project-tags"></div>
+        </div>
+
+        <div class="modal-actions-row">
+          <a id="project-modal-link" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <i class="fa-brands fa-github"></i>
+            <span>View on GitHub</span>
+          </a>
+          <button class="btn btn-glass" data-close-modal>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PRIVACY & TERMS MODAL ==================== -->
+  <div id="legal-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="legal-modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="legal-modal-title" class="modal-title">Legal Information</h3>
+        <button class="modal-close-btn" data-close-modal aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div id="legal-modal-body" class="legal-content">
+          <h4>Privacy Policy</h4>
+          <p>This is a purely static portfolio website. We do not use third-party analytics trackers, cookies, or collect your personal data without your consent. Any information submitted via the contact form is sent directly through standard email channels to respond to your inquiry.</p>
+          <h4 style="margin-top: 1.5rem;">Terms of Service</h4>
+          <p>All source code, designs, and content created by Paul Rajeevan are shared for educational and portfolio demonstration purposes. Open-source repositories adhere to their respective licenses on GitHub.</p>
+        </div>
+        <div class="modal-actions-row" style="margin-top: 1.5rem;">
+          <button class="btn btn-primary" data-close-modal>Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
