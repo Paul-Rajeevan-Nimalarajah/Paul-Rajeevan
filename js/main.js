@@ -112,9 +112,7 @@
     if (savedTheme) {
       document.documentElement.setAttribute('data-theme', savedTheme);
     } else {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      const initialTheme = prefersDark ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', initialTheme);
+      document.documentElement.setAttribute('data-theme', 'light');
     }
   }
 
